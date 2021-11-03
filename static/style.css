@@ -1,0 +1,221 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+.button1 {
+	background-color: white; 
+	color: black; 
+	border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+	background-color: #4CAF50;
+	color: white;
+  }
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://c0.wallpaperflare.com/preview/544/134/389/astronaut-background-cartoon-cosmonaut.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.memberbox{
+	color: #fff;
+	font-family: poppins;
+}
+.memberinput input{
+    height:50px;
+    font-size:14pt;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	width: 100%;
+	padding: 15px 0;
+}
+.membersbit{
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.welcome-text {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.welcome-text h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.welcome-text h1 span {
+	color: #00fecb;
+}
+.welcome-text a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+.welcome-text a:hover {
+	background: #fff;
+	color: #333;
+}
+.welcome-text2 {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+	background-color:transparent;
+}
+.welcome-text2 h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 30px;
+	background-color:transparent;
+}
+.welcome-text2 h1 span {
+	color: #00fecb;
+}
+.welcome-text2 a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+	background-color:transparent;
+}
+.welcome-text2 a:hover {
+	background: #fff;
+	color: #fff;
+}
+.welcome-text3 {
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	margin: 20% 30%;
+	text-align: center;
+	background-color:transparent;
+}
+.welcome-text3 h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 30px;
+	background-color:transparent;
+}
+.welcome-text3 h1 span {
+	color: #00fecb;
+}
+.welcome-text3 a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+	background-color:transparent;
+}
+.welcome-text3 a:hover {
+	background: #fff;
+	color: #fff;
+}
+/*resposive*/
+
+@media (max-width:600px) {
+	.wrapper {
+		width: 100%;
+	}
+	.logo {
+		float: none;
+		width: 50%;
+		text-align: center;
+		margin: auto;
+	}
+	img {
+	}
+	.nav-area {
+		float: none;
+		margin-top: 0;
+	}
+	.nav-area li a {
+		padding: 5px;
+		font-size: 11px;
+	}
+	.nav-area {
+		text-align: center;
+	}
+	.welcome-text {
+		width: 100%;
+		height: auto;
+		margin: 30% 0;
+	}
+	.welcome-text h1 {
+		font-size: 30px;
+	}
+	.welcome-text2 {
+		width: 100%;
+		height: auto;
+		margin: 30% 0;
+		background-color:transparent;
+	}
+	.welcome-text2 h1 {
+		font-size: 30px;
+	}
+	.welcome-text3 {
+		width: 100%;
+		height: auto;
+		margin: 30% 0;
+		background-color:transparent;
+	}
+	.welcome-text3 h1 {
+		font-size: 30px;
+	}
+
+}
